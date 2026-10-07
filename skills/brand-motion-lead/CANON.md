@@ -67,10 +67,10 @@ Sources are credited by name and link; nothing paid is reproduced here. `researc
 - **For multi-chapter films, write the animation guide first,** then split chapters across sub-agents so they code in one style; scale them in waves with a review between. [source: house practice]
 - **API keys live in `.env` and are referenced by name,** never pasted into prompts. [source: movez]
 
-- **Thread one object through the whole film:** one element is on screen from the first frame to the last, and each scene is a new state of it. Different shapes become states of one shape, keeping position and velocity through every change. [source: @ultimaxbt on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
-- **If a graph shows a motion, draw it from the same function that moves the object.** Two sources for one motion always feel fake. [source: @ultimaxbt on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
-- **Transform words letter by letter;** anything attached to a letter stays with it until its own beat. A shape that fills the frame scales past all four corners. [source: @ultimaxbt on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
-- **Check pacing with one still per beat** before the full export. [source: @ultimaxbt on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
+- **Thread one object through the whole film:** one element is on screen from the first frame to the last, and each scene is a new state of it. Different shapes become states of one shape, keeping position and velocity through every change. [source: @alexwtlf on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
+- **If a graph shows a motion, draw it from the same function that moves the object.** Two sources for one motion always feel fake. [source: @alexwtlf on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
+- **Transform words letter by letter;** anything attached to a letter stays with it until its own beat. A shape that fills the frame scales past all four corners. [source: @alexwtlf on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
+- **Check pacing with one still per beat** before the full export. [source: @alexwtlf on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
 
 - **One world, one camera:** place scenes side by side in a single world and move a camera with position and log-space zoom, so pans travel between spaces. Never zoom in and straight back out. [source: X post, "every frame in code from one prompt" 22 s square product loop, Oct 2026]
 - **Morph and camera on one curve:** a shape glide and the camera move share the same timing curve so they read as one motion; old content dissolves during the second half of the glide. One gesture per scene. [source: X post, "every frame in code from one prompt" 22 s square product loop, Oct 2026]
