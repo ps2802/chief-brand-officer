@@ -79,6 +79,19 @@ Sources are credited by name and link; nothing paid is reproduced here. `researc
 - **Motion blur where it's fastest** (more subframes on a fast pan), then scan every frame for single-frame jumps. [source: X post, "every frame in code from one prompt" 22 s square product loop, Oct 2026]
 - **Hand-offs never pop:** a drawing hands over only after it has fully landed; a cursor stays attached to what it drags, even while it stretches; counters swap whole values instead of ticking every frame. [source: X post, "every frame in code from one prompt" 22 s square product loop, Oct 2026]
 
+- **End every film brief with a numbered list of locks:** what must be true in every frame, sized against other objects rather than pixels, with left/right geometry fixed for the whole film. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **Write a camera whitelist with numbers** (a small punch-in only on beats, slow eased pushes, a lens per shot) and ban everything else, including random drift. If moves feel quick, halve them. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **Let type be the transition:** reveal the next scene through the outgoing word's own letter shapes. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **Never morph points between unrelated shapes;** bridge them with an occluder or a shared edge, and reset a loop while the frame is fully covered. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **Treat impact effects as envelopes:** they peak on the hit, are gone by the next beat, and are capped (no pure-white flashes, small colour offsets, shake settled within half a second). [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **Map the track's energy before animating** and scale intensity by section: quietest scene in the breakdown, biggest move on the drop. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **If the picture is a simulation or a machine, compute its sound from the same state** that draws it. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **Before depicting anything real, write a sourced facts file** with a confidence for each fact, flag disagreements instead of guessing, and build from the file. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **Animate continuously, then quantize per layer** (pixel grid, cut-outs on twos) while the camera stays at full rate. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **Run the final checks on the encoded file,** not on browser screenshots: decode frames, check spacing and duration, re-measure loudness after encoding. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **Make cutdowns separate scene lists from one codebase,** with captions measured in the real font and kept inside each platform's interface-safe zone. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+- **Name the reaction you want** in one line, and list reject-if criteria the model applies to its own frames (looks like a template, a slide deck, screenshots sliding). [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
+
 ## Process & critique
 - **Review with three questions before designing and before shipping:** who is this for, what are we communicating, and does it need to be there at all? Shape before polish; restraint is taste. [source: Meaghan Choi's design principles as compiled by @0xCarnagee on X, Oct 2026]
 
