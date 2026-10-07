@@ -1,0 +1,54 @@
+<!doctype html>
+<!-- seek(t) film template. Copy beside lib/motion.js. Pure function of time: no CSS transitions,
+     no timers, no carried state, seeded noise only. -->
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono&display=block">
+<style>html,body{margin:0;background:#1b1917}canvas{display:block}</style>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script src="lib/motion.js"></script>
+<script>
+const cv = document.getElementById('c'), g = cv.getContext('2d');
+const W = cv.width, H = cv.height, DUR = 6;
+const [PK, PD] = SPRINGS.calm;
+window.FONTS = ['150px "Archivo Black"', '28px "Space Mono"'];   // render.mjs waits for these
+
+// Scenes overlap: no hard cuts. Scene 1's underline becomes the first square of scene 2.
+const SCENES = [
+  { from: 0, to: 3.3, draw(t) {                      // title: heavy spring in, ease-in exit
+      const s = spring(t - 0.1, ...SPRINGS.heavy);
+      const out = Math.pow(clamp((t - 2.2) / 0.5), 3);      // exit ≈ 70% of the entrance, ease-in
+      g.save(); g.translate(W / 2, H / 2 + 60 * (1 - s) - 120 * out);
+      g.globalAlpha = clamp(t * 3) * (1 - out);
+      g.fillStyle = '#f1e7d3'; g.font = window.FONTS[0];
+      g.textAlign = 'left'; g.fillText('YOUR BRAND', -560, 0);
+      g.restore();
+      const u = spring(t - 0.35, PK, PD), shrink = spring(t - 2.75, PK, PD);  // underline → square, after the title clears
+      const x0 = W / 2 - 560, y0 = H / 2 + 40, x1 = 260 - 70, y1 = 340 - 70;
+      g.fillStyle = '#e36f55';
+      g.fillRect(x0 + (x1 - x0) * shrink, y0 + (y1 - y0) * shrink,
+                 1120 * u * (1 - shrink) + 140 * shrink, 14 + 126 * shrink);
+  }},
+  { from: 3.3, to: 6, draw(t) {                      // grid assembles from the handed-off square
+      const r = rng(7);
+      g.fillStyle = '#e36f55'; g.fillRect(260 - 70, 340 - 70, 140, 140);
+      for (let i = 1; i < 24; i++) {
+        const x = (i % 8) * 200 + 260, y = Math.floor(i / 8) * 200 + 340;
+        const s = spring(t - i * 0.02 - r() * 0.08, PK, PD);
+        g.fillStyle = i % 7 ? '#f1e7d3' : '#e36f55';
+        g.fillRect(x - 70 * s, y - 70 * s, 140 * s, 140 * s);
+      }
+  }},
+];
+
+function draw(t) {
+  g.fillStyle = '#1b1917'; g.fillRect(0, 0, W, H);
+  for (const s of SCENES) if (t >= s.from && t < s.to) s.draw(t - s.from);
+}
+window.DUR = DUR;
+window.seek = (t) => { draw(t); return true; };
+
+if (!navigator.webdriver) {           // live preview in a normal browser only
+  const t0 = performance.now();
+  (function loop() { draw(((performance.now() - t0) / 1000) % DUR); requestAnimationFrame(loop); })();
+}
+</script>
