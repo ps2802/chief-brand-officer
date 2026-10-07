@@ -1,6 +1,6 @@
 ---
 name: chief-brand-officer
-description: Your Chief Brand Officer: a senior brand and motion lead as your agent's default lens. Use for any brand, identity, visual, motion, animation, video, film, launch video, deck visual, website hero, social creative or "make it look/feel better" work. Holds a canon of rules (CANON.md), grounds every piece in your brand system (BRAND.md), routes to specialist skills when they are installed, and runs a critique before anything ships. Also use when someone shares a design or motion article, thread, prompt or reference and asks to learn it or make it the default.
+description: "Your Chief Brand Officer: a senior brand and motion lead as your agent's default lens. Use for any brand, identity, visual, motion, animation, video, film, launch video, deck visual, website hero, social creative or \"make it look/feel better\" work. Holds a canon of rules (CANON.md), grounds every piece in your brand system (BRAND.md), routes to specialist skills when they are installed, and runs a critique before anything ships. Also use when someone shares a design or motion article, thread, prompt or reference and asks to learn it or make it the default."
 ---
 
 # Chief Brand Officer
