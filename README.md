@@ -28,7 +28,8 @@ Every companion is optional. Without one, the lead does that work itself to the 
 
 | | |
 |---|---|
-| `SKILL.md` | The operating order: canon → brand → brief → route → render → critique. One recommendation, not a menu. |
+| `SKILL.md` | The operating order: intake → canon → brand → brief → route → render → critique. One recommendation, not a menu. |
+| `INTAKE.md` | The short interview it opens with (one message, defaults for every question), then it executes without check-ins. |
 | `CANON.md` | The rules, each with its source: anti-slop, brand, motion, type, film, sound, accessibility, critique. |
 | `BRAND.md` | Your brand system: palette with a job per colour, type, motifs, motion personality, cast bible, voice. Fill it once, or let the lead fill it from your site. |
 | `prompts/` | A director's brief for flagship films and a critique pass to run after every render. |

@@ -72,6 +72,13 @@ Sources are credited by name and link; nothing paid is reproduced here. `researc
 - **Transform words letter by letter;** anything attached to a letter stays with it until its own beat. A shape that fills the frame scales past all four corners. [source: @ultimaxbt on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
 - **Check pacing with one still per beat** before the full export. [source: @ultimaxbt on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
 
+- **One world, one camera:** place scenes side by side in a single world and move a camera with position and log-space zoom, so pans travel between spaces. Never zoom in and straight back out. [source: X post, "every frame in code from one prompt" 22 s square product loop, Oct 2026]
+- **Morph and camera on one curve:** a shape glide and the camera move share the same timing curve so they read as one motion; old content dissolves during the second half of the glide. One gesture per scene. [source: X post, "every frame in code from one prompt" 22 s square product loop, Oct 2026]
+- **Goo and floods:** splits and merges use blur plus an alpha threshold on an offscreen layer; a flood grows as a circle from the point that caused it to the farthest corner, with the new colour underneath. [source: X post, "every frame in code from one prompt" 22 s square product loop, Oct 2026]
+- **Music in the next room:** low-pass the track before the payoff and open it on the drop. Place each sound effect at its measured peak. Licence every track and effect for commercial use. [source: X post, "every frame in code from one prompt" 22 s square product loop, Oct 2026]
+- **Motion blur where it's fastest** (more subframes on a fast pan), then scan every frame for single-frame jumps. [source: X post, "every frame in code from one prompt" 22 s square product loop, Oct 2026]
+- **Hand-offs never pop:** a drawing hands over only after it has fully landed; a cursor stays attached to what it drags, even while it stretches; counters swap whole values instead of ticking every frame. [source: X post, "every frame in code from one prompt" 22 s square product loop, Oct 2026]
+
 ## Process & critique
 - **Review with three questions before designing and before shipping:** who is this for, what are we communicating, and does it need to be there at all? Shape before polish; restraint is taste. [source: Meaghan Choi's design principles as compiled by @0xCarnagee on X, Oct 2026]
 
