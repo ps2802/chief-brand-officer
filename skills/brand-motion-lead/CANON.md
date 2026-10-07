@@ -67,6 +67,11 @@ Sources are credited by name and link; nothing paid is reproduced here. `researc
 - **For multi-chapter films, write the animation guide first,** then split chapters across sub-agents so they code in one style; scale them in waves with a review between. [source: house practice]
 - **API keys live in `.env` and are referenced by name,** never pasted into prompts. [source: movez]
 
+- **Thread one object through the whole film:** one element is on screen from the first frame to the last, and each scene is a new state of it. Different shapes become states of one shape, keeping position and velocity through every change. [source: @ultimaxbt on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
+- **If a graph shows a motion, draw it from the same function that moves the object.** Two sources for one motion always feel fake. [source: @ultimaxbt on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
+- **Transform words letter by letter;** anything attached to a letter stays with it until its own beat. A shape that fills the frame scales past all four corners. [source: @ultimaxbt on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
+- **Check pacing with one still per beat** before the full export. [source: @ultimaxbt on X, "one orange dot" Opus 5.5 showreel, Oct 2026]
+
 ## Process & critique
 - **Review with three questions before designing and before shipping:** who is this for, what are we communicating, and does it need to be there at all? Shape before polish; restraint is taste. [source: Meaghan Choi's design principles as compiled by @0xCarnagee on X, Oct 2026]
 
