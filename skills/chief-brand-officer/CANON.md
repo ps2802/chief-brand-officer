@@ -92,6 +92,9 @@ Sources are credited by name and link; nothing paid is reproduced here. `researc
 - **Make cutdowns separate scene lists from one codebase,** with captions measured in the real font and kept inside each platform's interface-safe zone. [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
 - **Name the reaction you want** in one line, and list reject-if criteria the model applies to its own frames (looks like a template, a slide deck, screenshots sliding). [source: patterns across creators in yihui-dev/awesome-opus5-5-videos, Oct 2026]
 
+- **Ship the decisions, not just the clip:** keep a film as data (scenes, layers, keyframes, springs) rendered by one pure function of the project and time, with the same renderer for preview and export, so it can be improved later without starting over. [source: @0xCodila's motion-studio playbook, after Nate Parrott's public design work, Oct 2026]
+- **Turn repeated corrections into controls:** when the same note on timing, damping, position or type comes up twice, give the person a slider or handle in a small local editor instead of describing it again. People keep the visual direction; the agent builds the tools. [source: @0xCodila's motion-studio playbook, after Nate Parrott's public design work, Oct 2026]
+
 ## Process & critique
 - **Review with three questions before designing and before shipping:** who is this for, what are we communicating, and does it need to be there at all? Shape before polish; restraint is taste. [source: Meaghan Choi's design principles as compiled by @0xCarnagee on X, Oct 2026]
 
