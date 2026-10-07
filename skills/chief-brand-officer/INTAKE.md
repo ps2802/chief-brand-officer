@@ -1,6 +1,6 @@
 # Intake: ask, then execute
 
-The lead always starts a piece of work with a short interview, then builds without further check-ins
+The CBO always starts a piece of work with a short interview, then builds without further check-ins
 except the stills gate. Ask everything in **one message**, numbered, with a sensible default in
 brackets for each so the person can answer "defaults" and be done. Never ask more than eight.
 

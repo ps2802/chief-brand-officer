@@ -1,6 +1,6 @@
 # Brand system
 
-Fill this in once per brand, or let the lead fill it from your live site. The lead reads it before
+Fill this in once per brand, or let the CBO fill it from your live site. The CBO reads it before
 every piece. Leave a line blank rather than guess: a guessed palette is how brands drift.
 
 ## Identity

@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# Installs the specialist skills brand-motion-lead routes to. All are optional: the lead works
+# Installs the specialist skills chief-brand-officer routes to. All are optional: the CBO works
 # without them and uses each one when it is present. Read a repo before you install it.
 set -e
 add() { echo "→ $1"; npx -y skills add "$1" || echo "  (skipped $1)"; }
